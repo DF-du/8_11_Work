@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.CompileActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/compile_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#66ccff" />
+
+    <EditText
+        android:id="@+id/et_desc"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:gravity="left"
+        android:background="@drawable/blik"
+        android:hint="笔记内容"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
+    <EditText
+        android:id="@+id/et_title"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:background="@drawable/blik"
+        android:layout_marginTop="20dp"
+        android:hint="笔记标签"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

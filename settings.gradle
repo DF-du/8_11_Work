@@ -1,0 +1,3 @@
+rootProject.name='8_11_Work'
+include ':app'
+include ':two'
